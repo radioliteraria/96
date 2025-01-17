@@ -1,0 +1,139 @@
+ .u-section-1 {
+  background-image: url("/images/e8a6a6ad6a62c388b0f4e4813ed793c151dff301347f6f5a8b686a74b1d05e51d1e913f8f0611a79db8485a39a2a73e783dfa729733cf7cab6c658_1280.jpg");
+  background-position: 50% 50%;
+  min-height: 751px;
+}
+
+.u-section-1 .u-group-1 {
+  width: 468px;
+  min-height: 340px;
+  height: auto;
+  background-image: none;
+  margin: 247px calc(((100% - 1140px) / 2) + -31px) 60px auto;
+}
+
+.u-section-1 .u-container-layout-1 {
+  padding: 30px 22px;
+}
+
+.u-section-1 .u-text-1 {
+  margin: 57px 16px 0 0;
+}
+
+.u-section-1 .u-text-2 {
+  margin: 28px 8px 0;
+}
+
+.u-section-1 .u-text-3 {
+  margin: 0 8px;
+}
+
+.u-section-1 .u-text-4 {
+  margin: 0 8px;
+}
+
+@media (max-width: 1199px) {
+  .u-section-1 .u-group-1 {
+    margin-right: calc(((100% - 940px) / 2) + -31px);
+    height: auto;
+  }
+}
+
+@media (max-width: 991px) {
+  .u-section-1 .u-group-1 {
+    margin-right: calc(((100% - 720px) / 2) + -31px);
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-1 .u-group-1 {
+    margin-right: calc(((100% - 540px) / 2) + -31px);
+  }
+
+  .u-section-1 .u-container-layout-1 {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+
+@media (max-width: 575px) {
+   .u-section-1 {
+    min-height: 639px;
+  }
+
+  .u-section-1 .u-group-1 {
+    width: 340px;
+    margin-right: calc(((100% - 340px) / 2));
+  }
+
+  .u-section-1 .u-text-1 {
+    margin-right: 0;
+  }
+
+  .u-section-1 .u-text-2 {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .u-section-1 .u-text-3 {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .u-section-1 .u-text-4 {
+    margin-left: 0;
+    margin-right: 0;
+  }
+} .u-section-2 {
+  background-image: url("/images/2330428502-0.jpeg");
+  background-position: 50% 50%;
+}
+
+.u-section-2 .u-sheet-1 {
+  min-height: 502px;
+}
+
+.u-section-2 .u-text-1 {
+  margin: 60px auto 0;
+}
+
+.u-section-2 .u-form-1 {
+  width: 570px;
+  margin: 30px auto 60px;
+}
+
+.u-section-2 .u-input-1 {
+  text-transform: none;
+}
+
+.u-section-2 .u-input-2 {
+  text-transform: none;
+}
+
+.u-section-2 .u-input-3 {
+  text-transform: none;
+}
+
+.u-section-2 .u-btn-1 {
+  background-image: none;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+@media (max-width: 1199px) {
+  .u-section-2 .u-btn-1 {
+    border-style: solid;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-2 .u-form-1 {
+    width: 540px;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-2 .u-form-1 {
+    width: 340px;
+  }
+}
