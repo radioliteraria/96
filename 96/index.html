@@ -172,7 +172,7 @@
                         </li>
                         <li class="u-nav-item"><a class="u-border-hover-palette-3-light-1 u-button-style u-nav-link u-text-active-white u-text-grey-10 u-text-hover-palette-3-base" href="/96/sobre-nos-1.html#carousel_80da" style="padding: 16px 28px; text-decoration: underline !important;">Sobre-nos</a>
                         </li>
-                        <li class="u-nav-item"><a class="u-border-hover-palette-3-light-1 u-button-style u-nav-link u-text-active-white u-text-grey-10 u-text-hover-palette-3-base" href="https://carrapatocultural.com/noticias/" style="padding: 16px 28px; text-decoration: underline !important;">Blog/Noticias/Sport/Eventos</a>
+                        <li class="u-nav-item"><a class="u-border-hover-palette-3-light-1 u-button-style u-nav-link u-text-active-white u-text-grey-10 u-text-hover-palette-3-base" href="https://tv.carrapatocultural.com/" style="padding: 16px 28px; text-decoration: underline !important;">Tv Carrapato</a>
                         </li>
                         <li class="u-nav-item"><a class="u-border-hover-palette-3-light-1 u-button-style u-nav-link u-text-active-white u-text-grey-10 u-text-hover-palette-3-base" href="/96/Equipe-3.html#sec-4476" style="padding: 16px 28px; text-decoration: underline !important;">Equipe</a>
                         </li>
@@ -193,7 +193,7 @@
                                         </li>//-
                                         <li class="u-nav-item"><a class="u-button-style u-nav-link" href="/96/sobre-nos-1.html#carousel_80da">Sobre-nos</a>//-
                                         </li>//-
-                                        <li class="u-nav-item"><a class="u-button-style u-nav-link" href="https://carrapatocultural.com/noticias/">Blog/Noticias/Sport/Eventos</a>//-
+                                        <li class="u-nav-item"><a class="u-button-style u-nav-link" href="https://tv.carrapatocultural.com/">Tv Carrapato</a>//-
                                         </li>//-
                                         <li class="u-nav-item"><a class="u-button-style u-nav-link" href="/96/Equipe-3.html#sec-4476">Equipe</a>//-
                                         </li>//-
@@ -204,7 +204,7 @@
                                         <ul class="u-align-center u-nav u-popupmenu-items u-unstyled u-nav-1">//+
                                             <li class="u-nav-item"><a class="u-button-style u-nav-link" href="/96/Página-Inicial-radio.html#sec-55a2">Início</a></li>//+
                                             <li class="u-nav-item"><a class="u-button-style u-nav-link" href="/96/sobre-nos-1.html#carousel_80da">Sobre nós</a></li>//+
-                                            <li class="u-nav-item"><a class="u-button-style u-nav-link" href="https://carrapatocultural.com/noticias/">Blog/Notícias/Esporte/Eventos</a></li>//+
+                                            <li class="u-nav-item"><a class="u-button-style u-nav-link" href="https://tv.carrapatocultural.com/">Tv Carrapato</a></li>//+
                                             <li class="u-nav-item"><a class="u-button-style u-nav-link" href="/96/Equipe-3.html#sec-4476">Equipe</a></li>//+
                                             <li class="u-nav-item"><a class="u-button-style u-nav-link" href="https://carrapatocultural.com">Carrapato Cultural</a></li>//+
                                             <li class="u-nav-item"><a class="u-button-style u-nav-link" href="/96/Contatos-4.html#sec-35fc">Contatos</a></li>//+
@@ -860,89 +860,6 @@
         <svg class="u-svg-content" enable-background="new 0 0 551.13 551.13" viewBox="0 0 551.13 551.13" xmlns="http://www.w3.org/2000/svg" id="svg-1d98"><path d="m275.565 189.451 223.897 223.897h51.668l-275.565-275.565-275.565 275.565h51.668z"></path></svg>
     </span>
 
-    <!-- Assistente Virtual -->
-    <div id="assistant"></div>
-    <div id="message-box">
-        <button id="close-all" class="control-button" type="button">×</button>
-        <span id="message-text"></span>
-    </div>
-    <div id="chat-container">
-        <button id="close-chat" class="control-button" type="button">×</button>
-        <iframe src="https://bots.easy-peasy.ai/bot/fb3c8919-8bdd-4410-ab15-6be4672e02dc"></iframe>
-    </div>
-
-    <script>
-        // Script do Assistente
-        const messages = [
-            "Olá! Sou o Alfaio, assistente do Carrapato Cultural! 🎭",
-            "Posso ajudar com informações sobre nossos projetos! 🎬",
-            "Clique em mim para conversarmos! 💬"
-        ];
-
-        let currentMessage = 0;
-
-        // Mostrar primeira mensagem
-        document.getElementById('message-text').textContent = messages[0];
-
-        // Alternar mensagens
-        setInterval(() => {
-            currentMessage = (currentMessage + 1) % messages.length;
-            document.getElementById('message-text').textContent = messages[currentMessage];
-        }, 5000);
-
-        // Script para os botões de fechamento
-        document.addEventListener('DOMContentLoaded', function () {
-            const assistant = document.getElementById('assistant');
-            const messageBox = document.getElementById('message-box');
-            const chatContainer = document.getElementById('chat-container');
-            const closeAllBtn = document.getElementById('close-all');
-            const closeChatBtn = document.getElementById('close-chat');
-
-            // Função para mostrar e esconder o assistente
-            function cycleAssistant() {
-                assistant.style.display = 'block';
-                assistant.style.animation = 'fadeInOut 30s ease';
-
-                setTimeout(() => {
-                    assistant.style.display = 'none';
-                    setTimeout(cycleAssistant, 1000);
-                }, 30000);
-            }
-
-            // Função para mostrar e esconder o balão de mensagem
-            function cycleMessageBox() {
-                messageBox.style.display = 'block';
-                messageBox.style.animation = 'fadeInOut 15s ease';
-
-                setTimeout(() => {
-                    messageBox.style.display = 'none';
-                    setTimeout(cycleMessageBox, 2000);
-                }, 15000);
-            }
-
-            // Inicia os ciclos de forma sincronizada
-            setTimeout(() => {
-                cycleAssistant();
-                setTimeout(cycleMessageBox, 500);
-            }, 1000);
-
-            // Botão para fechar tudo (assistente e balão)
-            closeAllBtn.addEventListener('click', function () {
-                assistant.style.display = 'none';
-                messageBox.style.display = 'none';
-            });
-
-            // Botão para fechar apenas o chat
-            closeChatBtn.addEventListener('click', function () {
-                chatContainer.style.display = 'none';
-            });
-
-            // Abrir chat ao clicar no assistente
-            assistant.addEventListener('click', function () {
-                chatContainer.style.display = 'block';
-            });
-        });
-    </script>
 </body>
 
 
